@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid red;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-image: url(https://images-ext-2.discordapp.net/external/p1Z2xfp7kbbnT5N4fIDg64NsMRsbbAzT4XLoMt1h0-8/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024%2Ch_652%2Cq_80%2Cstrp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?format=webp&width=734&height=468);
+  padding-left: 80px;
+  padding-right: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+#gameContainer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.player {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heart {
+  height: 30px;
+}
+
+.pokemon {
+  width: 45%;
+  padding: 25px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.instruction_game {
+  text-align: center;
+}
+
+.previous_pokemon_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.previous_pokemon_container > * {
+  gap: 5px;
+  padding: 5px;
+}
+
+.pokemon_sprite {
+  height: 250px;
+}
+
+.pokemon_name {
+  font-size: 24px;
+}
+
+.previous_type_png_first {
+  height: 20px;
+}
+
+.previous_type_png_second {
+  height: 20px;
+}
+
+.pokemon_number_id {
+  font-size: 20px;
+}
+
+.type_png {
+  height: 16px;
+}
+
+hr {
+  color: black;
+  width: 100%;
+}
+
+.answer_input_container {
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.input_inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.answer_input_container > * {
+  padding: 20px;
+}
+
+#answer {
+  height: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.buttons {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit_button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 15px 100px;
+  margin: 0 5px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
